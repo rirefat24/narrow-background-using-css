@@ -1,0 +1,54 @@
+body {
+	margin: 0;
+}
+h1 {
+	text-align: center;
+	color: white;
+	margin: 0;
+	padding: 60px;
+	text-transform: capitalize;
+}
+
+.whole-area {
+	height: 800px;
+	width: 100%;
+	
+}
+
+.header-area,
+.footer-area {
+	height: 20%;
+	width: 100%;
+	background-color: black;
+}
+
+.portfolio-area,
+.services-area {
+	height: 30%;
+	width: 100%;
+	background-color: #dff9fb;
+}
+
+.target-area {
+	width: 100%;
+	height: 30%;
+	background-color: #130f40;
+	position: relative;
+}
+
+.target-area:before {
+	content: '';
+	display: block;
+	border-bottom: 60px solid #130f40;
+	border-right: 1348px solid transparent;
+	position: absolute;
+	bottom: 100%;
+}
+.target-area:after {
+	content: '';
+	display: block;
+	border-top: 60px solid #130f40;
+	border-left: 1348px solid transparent;
+	position: absolute;
+	top: 100%;
+}
